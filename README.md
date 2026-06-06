@@ -81,3 +81,112 @@
 </div>
 </body>
 </html>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 80px;
+}
+.menu{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+.menu a{
+text-decoration: none;
+color:#444;
+}
+.cart-btn{
+    padding:8px 18px;
+    border:1px solid #ccc;
+    border-radius:20px;
+    background:white;
+    cursor:pointer;
+}
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px;
+}
+.hero text{
+     max-width:450px;
+}
+.hero h1{
+    font-size: 55px;
+}
+.hero span{
+    color: #E95A08;
+}
+.hero p{
+    margin-top: 20px;
+    color: #777;
+    line-height: 1.6;
+}
+.hero-image img{
+    width: 450px;
+}
+.plants{
+    text-align:center;
+    margin-top:50px;
+}
+.plants h2{
+    font-size: 40px;
+}
+.plants span{
+    color:#E95A08;
+}
+.plants p{
+    color:#777;
+    margin-top:10px;
+}
+.product-container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+    padding:50px 80px;
+}
+.card{
+    text-align:center;
+}
+.card img{
+    width: 100px;
+    border-radius: 8px;
+}
+.card h3{
+    margin-top: 10px;
+}
+.card p{
+    margin: 5px 0 10px;
+}
+.card button{
+    width:100%;
+    background:#E95A08;
+    color:white;
+    border:none;
+    padding:12px;
+    cursor:pointer;
+}
+.hero{
+    flex-direction: column;
+}
+.hero-image img{
+    width:100%;
+    margin-top:30px;
+}
+.product-container{
+    grid-template-columns:repeat(2,1fr);
+}
+.navbar{
+     padding:20px;
+}
+
